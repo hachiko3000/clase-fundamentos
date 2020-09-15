@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=di">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .border {
+            border: solid;
+        }
+        
+        @media (min-width: 700px) {
+            .col-md-6 {
+                width: 50%;
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        
+        @media (min-width: 1000px) {
+            .col-lg-4 {
+                width: 33.3%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="border col-md-6 col-lg-4">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eveniet fugiat recusandae qui, blanditiis quasi optio laboriosam sint inventore fuga ratione omnis expedita? Architecto ratione quidem pariatur autem est. At!
+            </p>
+        </div>
+        <div class="border col-md-6 col-lg-4">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eveniet fugiat recusandae qui, blanditiis quasi optio laboriosam sint inventore fuga ratione omnis expedita? Architecto ratione quidem pariatur autem est. At!
+            </p>
+        </div>
+        <div class="border col-md-6 col-lg-4">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis eveniet fugiat recusandae qui, blanditiis quasi optio laboriosam sint inventore fuga ratione omnis expedita? Architecto ratione quidem pariatur autem est. At!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
